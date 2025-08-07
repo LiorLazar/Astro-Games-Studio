@@ -1,5 +1,20 @@
 body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: #000 !important;
+    color: #fff !important;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.app-wrapper {
+    background-color: #000 !important;
+    min-height: 100vh;
+    color: #fff !important;
+}
+
+main {
+    background-color: #000 !important;
+    color: #fff !important;
 }
 
 button {

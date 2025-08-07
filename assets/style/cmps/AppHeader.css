@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #000 !important;
     padding: 1rem 2rem;
     width: 100%;
     box-sizing: border-box;
@@ -13,17 +14,19 @@
 }
 
 .app-header nav {
-    display: flex;
+    display: flex !important;
     align-items: center;
     gap: 2rem;
 }
 
 .app-header nav a {
-    color: #fff;
+    color: #fff !important;
     text-decoration: none;
     font-size: 0.9rem;
     transition: color 0.3s ease;
     position: relative;
+    display: inline-block !important;
+    visibility: visible !important;
 }
 
 .app-header nav a::after {
@@ -38,7 +41,7 @@
 }
 
 .app-header nav a:hover {
-    color: #ccc;
+    color: #ccc !important;
 }
 
 .app-header nav a:hover::after,
@@ -47,7 +50,7 @@
 }
 
 .app-header nav a.active {
-    color: #ccc;
+    color: #ccc !important;
 }
 
 .app-header nav a:last-child::after {

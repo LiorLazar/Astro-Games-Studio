@@ -9,7 +9,7 @@ export function AppHeader() {
         setActiveLink(item)
     }
 
-    return <header className="app-header containe">
+    return <header className="app-header container">
         <img src="assets/images/logo.png" alt="" />
         <nav>
             {navItems.map(item => (
